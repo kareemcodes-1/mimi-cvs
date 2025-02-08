@@ -3,7 +3,7 @@ import SwiperSlider from "./swiper/swiper"
 
 const Testimonials = () => {
   return (
-    <div className="bg-[#FFE4C4] lg:px-[2rem] px-[1.5rem] pt-[2.5rem] pb-[4rem] relative">
+    <div className="bg-[#FFE4C4] lg:px-[2rem] px-[1.5rem] pt-[2.5rem] pb-[4rem] relative lg:overscroll-none overflow-hidden">
       <div className="absolute -top-[0rem] lg:right-[1rem] right-0">
              {/* <img src="./leaf-2.png" alt="" className="w-[10rem] h-[10rem] rotate-[-80deg]"/>  */}
              <img src="./leaf2.png" alt="" className="lg:w-[10rem] w-[8rem] lg:h-[10rem] h-[8rem] rotate-[-80deg]"/> 

@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <header className="relative w-full z-[1000] lg:mt-[-1.5rem] mt-[-.5rem] px-[1.5rem]">
-      <nav className="flex items-center justify-between">
+      <nav className="flex items-center lg:justify-normal justify-between">
         {/* Logo */}
         <Link to={"/"}>
           <img
