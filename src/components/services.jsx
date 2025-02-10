@@ -4,7 +4,7 @@ import { FiArrowRight } from "react-icons/fi";
 
 export const Services = () => {
   return (
-    <section className="bg-neutral-950 lg:px-[2rem] px-[1.5rem] pt-[1.5rem] relative">
+    <section className="bg-[#4B3619] lg:px-[2rem] px-[1.5rem] pt-[1.5rem] relative">
       <div className="absolute -top-[0rem] right-[1rem]">
              {/* <img src="./leaf-2.png" alt="" className="w-[10rem] h-[10rem] rotate-[-80deg]"/>  */}
              <img src="./leaf2.png" alt="" className="w-[10rem] h-[10rem] rotate-[-80deg] opacity-5"/> 
@@ -80,7 +80,7 @@ const Link = ({ heading, imgSrc, subheading, href }) => {
       onMouseMove={handleMouseMove}
       initial="initial"
       whileHover="whileHover"
-      className="group relative flex items-center justify-between border-b-2 border-neutral-700 py-4 transition-colors duration-500 hover:border-neutral-50 md:py-8"
+      className="group relative flex items-center justify-between border-b-2 border-white opacity-[.5] py-4 transition-colors duration-500 hover:border-neutral-50 hover:opacity-[1] md:py-8"
     >
       <div>
         <motion.span
@@ -93,7 +93,7 @@ const Link = ({ heading, imgSrc, subheading, href }) => {
             staggerChildren: 0.075,
             delayChildren: 0.25,
           }}
-          className="relative z-10 block lg:text-4xl text-[1.8rem] font-bold text-neutral-500 transition-colors duration-500 group-hover:text-neutral-50 md:text-6xl"
+          className="relative z-10 block lg:text-[4rem] text-[1.8rem] font-bold text-white opacity-[.5] transition-colors duration-500 group-hover:text-neutral-50 group-hover:opacity-[1] md:text-6xl"
         >
           <span className="text-[#d5a654]">✦</span>
           {heading.split("").map((l, i) => (
@@ -128,7 +128,7 @@ const Link = ({ heading, imgSrc, subheading, href }) => {
         }}
         transition={{ type: "spring" }}
         src={imgSrc}
-        className="absolute z-0 h-30 w-32 rounded-lg object-cover md:h-48 md:w-64"
+        className="absolute z-[100] h-30 w-32 rounded-lg object-cover md:h-48 md:w-64"
         alt={`Image representing a link for ${heading}`}
       />
 

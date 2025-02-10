@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex lg:flex-row flex-col lg:items-center items-start lg:gap-[10rem] pb-[2rem]">
         <div>
             <Link to={'/'}>
-                 <img src="./logo-result.png" alt="" className="lg:h-[15rem] w-[5rem] h-[15rem] lg:object-contain object-cover"/>
+                 <img src="./logo-result.png" alt="" className="lg:h-[15rem] w-[5rem] h-[10rem] object-cover"/>
             </Link>
          </div>
 

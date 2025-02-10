@@ -10,7 +10,7 @@ const Testimonials = () => {
       </div>
         <div className="flex lg:flex-row flex-col lg:gap-0 gap-[1rem] lg:items-center items-start justify-between w-full z-[10000]">
         <div className="z-[10000]">
-          <span className="greatvibes text-[1.7rem] text-[#98623C]">Reviews</span>
+          <span className="greatvibes text-[1.7rem] text-[#d5a654]">Reviews</span>
         <h2 className="lg:text-[4rem] text-[2.5rem] golo z-[10000]">Hear from our satisified clients</h2>
         </div>
         <p className="text-[#98623C] golo z-[10000]">From glowing bridal makeovers to relaxing spa treatments, see how we've helped people look and feel their best.</p>
