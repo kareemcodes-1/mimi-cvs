@@ -17,9 +17,9 @@ const AboutPage = () => {
 
         <div className="lg:px-[2rem] px-[1rem]">
           <div className="lg:grid flex flex-col grid-cols-2 gap-[1rem]">
-            <div class="relative lg:h-[25rem] lg:w-[28rem] w-[18rem] h-[20rem]">
+            <div class="relative lg:h-[25rem] lg:w-[28rem] w-full h-[20rem]">
               <h1
-                className="absolute lg:right-[-7rem] right-[-5rem] top-0 text-[2rem] text-[#d5a654]"
+                className="lg:block hidden absolute lg:right-[-7rem] right-[-4rem] top-0 text-[2rem] text-[#d5a654]"
                 id="hero-img"
               >
                 ✦
@@ -30,7 +30,7 @@ const AboutPage = () => {
                 class="h-full w-full object-cover rounded-[.5rem]"
               />
 
-              <div class="absolute right-[-5rem] top-[10rem] lg:h-[20rem] h-[12rem] w-[18rem]">
+              <div class="lg:block hidden absolute right-[-5rem]top-[10rem] lg:h-[20rem] w-[18rem]">
                 <img
                   src="/home1.jpg"
                   alt="Second Image"
@@ -84,7 +84,7 @@ const AboutPage = () => {
               </h2>
 
               <div className="flex items-center gap-[1.5rem] mt-[1.5rem]">
-                <div className="bg-white shadow-sm rounded-full text-[#98623C] w-[5.5rem] h-[3rem] flex items-center justify-center text-[1.2rem] golos font-medium hover:bg-[#4B3619] hover:text-white transition">
+                <div className="bg-white shadow-sm rounded-full text-[#98623C] lg:w-[5.5rem] w-[10rem] h-[3rem] flex items-center justify-center text-[1.2rem] golos font-medium hover:bg-[#4B3619] hover:text-white transition">
                   01
                 </div>
                 <div>
@@ -100,7 +100,7 @@ const AboutPage = () => {
               </div>
 
               <div className="flex items-center gap-[1.5rem] mt-[1.5rem]">
-                <div className="bg-white shadow-sm rounded-full text-[#98623C] w-[5.5rem] h-[3rem] flex items-center justify-center text-[1.2rem] golos font-medium hover:bg-[#4B3619] hover:text-white transition">
+                <div className="bg-white shadow-sm rounded-full text-[#98623C] lg:w-[5.5rem] w-[10rem] h-[3rem] flex items-center justify-center text-[1.2rem] golos font-medium hover:bg-[#4B3619] hover:text-white transition">
                   02
                 </div>
                 <div>
@@ -120,11 +120,11 @@ const AboutPage = () => {
             {/* <img src="/home1.jpg" alt="" className="h-full w-full object-cover rounded-[.5rem]"/> */}
             <video
               src="/bella.mp4"
-              controls
+              // controls
               autoPlay
               loop
               preload="true"
-              className="h-[30rem] w-full object-cover rounded-[.5rem]"
+              className="lg:h-[30rem] h-[25rem] w-full object-cover rounded-[.5rem]"
             ></video>
             {/* </div> */}
           </div>
