@@ -4,6 +4,7 @@ import React from 'react'
 import BookNow from '../components/book-now'
 import Footer from '../components/footer'
 import { motion } from "framer-motion"
+import { Link } from 'react-router'
 
 const ServicesPage = () => {
   return (
@@ -36,7 +37,7 @@ const ServicesPage = () => {
               strokeWidth="3"
             />
           </svg></span> & Wellness​</h2>
-             <p className="mt-[1.5rem] text-center lg:w-[700px] w-full mx-auto text-[#98623C]">MDPro Makeover & Beauty Spa is your trusted beauty destination, dedicated to offering a wide range of services that cater to all aspects of beauty and wellness. Our team of certified beauty experts and therapists are passionate about bringing out the best version of you, offering services ranging from professional makeovers to holistic spa treatments.</p>
+             <p className="mt-[1.5rem] text-center lg:w-[700px] w-full mx-auto text-[#98623C]">At Bellavida Spa, we believe in nurturing your mind, body, and soul. Our mission is to provide you with an unforgettable experience, where luxury meets wellness. From rejuvenating body treatments to pampering facials, our wide range of services is designed to cater to your unique beauty and relaxation needs.</p>
              </div>
 
              <div className='mt-[2rem] flex flex-col gap-[1rem]'>
@@ -53,7 +54,7 @@ const ServicesPage = () => {
                       <div className='bg-[#98623C] rounded-[.5rem] lg:p-[2rem] p-[1.5rem]'>
                            <h2 className='text-[#FFE4C4] text-[5rem] leading-[6rem]'>Makeup <br /> Services</h2>
                            <p className="text-[1.2rem] text-[#FFE4C4] opacity-[.8]">Transform your look with our professional makeup services, perfect for weddings, photoshoots, special occasions, and everyday glam.</p>
-                           <button type="button" className="cart-btn-2 mt-[1rem]">Book now</button>
+                           <Link to={'https://wa.link/8e1ifh'} rel='external' target='_blank' className="cart-btn-2 mt-[1rem]">Book now</Link>
                       </div>
                   </div>
 
@@ -66,7 +67,7 @@ const ServicesPage = () => {
                       <div className='bg-[#98623C] rounded-[.5rem] lg:p-[2rem] p-[1.5rem]'>
                            <h2 className='text-[#FFE4C4] text-[5rem] leading-[6rem]'>Hair <br /> Styling</h2>
                            <p className="text-[1.2rem] text-[#FFE4C4] opacity-[.8]">Transform your look with our professional makeup services, perfect for weddings, photoshoots, special occasions, and everyday glam.</p>
-                           <button type="button" className="cart-btn-2 mt-[1rem]">Book now</button>
+                           <Link to={'https://wa.link/8e1ifh'} rel='external' target='_blank' className="cart-btn-2 mt-[1rem]">Book now</Link>
                       </div>
                   </div>
 
@@ -79,7 +80,7 @@ const ServicesPage = () => {
                       <div className='bg-[#98623C] rounded-[.5rem] lg:p-[2rem] p-[1.5rem]'>
                            <h2 className='text-[#FFE4C4] text-[5rem] leading-[6rem]'>Facial <br /> Massage</h2>
                            <p className="text-[1.2rem] text-[#FFE4C4] opacity-[.8]">Transform your look with our professional makeup services, perfect for weddings, photoshoots, special occasions, and everyday glam.</p>
-                           <button type="button" className="cart-btn-2 mt-[1rem]">Book now</button>
+                           <Link to={'https://wa.link/8e1ifh'} rel='external' target='_blank' className="cart-btn-2 mt-[1rem]">Book now</Link>
                       </div>
                   </div>
 
@@ -92,7 +93,7 @@ const ServicesPage = () => {
                       <div className='bg-[#98623C] rounded-[.5rem] lg:p-[2rem] p-[1.5rem]'>
                            <h2 className='text-[#FFE4C4] text-[5rem] leading-[6rem]'>Pendicure & <br /> Manicure</h2>
                            <p className="text-[1.2rem] text-[#FFE4C4] opacity-[.8]">Transform your look with our professional makeup services, perfect for weddings, photoshoots, special occasions, and everyday glam.</p>
-                           <button type="button" className="cart-btn-2 mt-[1rem]">Book now</button>
+                           <Link to={'https://wa.link/8e1ifh'} rel='external' target='_blank' className="cart-btn-2 mt-[1rem]">Book now</Link>
                       </div>
                   </div>
              </div>

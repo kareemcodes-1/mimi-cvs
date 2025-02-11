@@ -15,13 +15,15 @@ const Hero = () => {
               NEW
             </span>
             <h2 id="hero-desc" className="text-[2rem]">
-              Hyaluronic Booster
+            Radiant Skin
             </h2>
             <div id="hero-desc">
               <p className="lg:w-[270px] text-[#98623C]">
                 Browse our exquisite collection of <br />
-                skincare essentials and start your <br />
-                journey to flawless, radiant skin today!
+                skincare services that helps achieve
+                a flawless and radiant skin complexion!
+                {/* Experience the ultimate in skin care and rejuvenation with our expertly designed treatments
+                we focus on enhancing your natural beauty and helping you achieve a flawless, radiant complexion through luxurious facials and holistic therapies */}
               </p>
             </div>
           </div>

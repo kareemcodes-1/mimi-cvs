@@ -14,19 +14,19 @@ export const Services = () => {
           heading=" Facial &nbsp; massage"
           // subheading="Learn what we do here"
           imgSrc="/home1.jpg"
-          href="#"
+          href="/services"
         />
         <Link
           heading="Pedicure"
           // subheading="We work with great people"
           imgSrc="/home1.jpg"
-          href="#"
+          href="/services"
         />
         <Link
           heading="Hair &nbsp; styling"
           // subheading="Our work speaks for itself"
           imgSrc="/home1.jpg"
-          href="#"
+          href="/services"
         />
         {/* <Link
           heading="Body &nbsp; Scrub"
@@ -38,7 +38,7 @@ export const Services = () => {
           heading="Body &nbsp; Massage"
           // subheading="Incase you're bored"
           imgSrc="/home1.jpg"
-          href="#"
+          href="/services"
         />
       </div>
     </section>

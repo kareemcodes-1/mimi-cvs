@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion";
+import { Link } from 'react-router';
 
 const BookNow = () => {
   return (
@@ -25,8 +26,8 @@ const BookNow = () => {
             />
           </svg>
         </span>{" "} Today!</h2>
-        <p className='text-[1rem] lg:w-[600px] w-full text-center flex items-center justify-center mx-auto !text-white opacity-[.9]'>Don’t wait to experience the Serenitas London difference. Schedule your appointment online now and embark on a journey of beauty and relaxation. Let us help you discover your most radiant self.</p>
-        <button type='button' className='cart-btn-2 !golo !mx-auto'>Book now</button>
+        <p className='text-[1rem] lg:w-[600px] w-full text-center flex items-center justify-center mx-auto !text-white opacity-[.9]'>Don’t wait to experience the Bellavida Spa difference. Schedule your appointment online now and embark on a journey of beauty and relaxation. Let us help you discover your most radiant self.</p>
+        <Link to={'https://wa.link/8e1ifh'} rel='external' target='_blank' className='cart-btn-2 !golo !mx-auto'>Book now</Link>
         </div>
     </section>
   )

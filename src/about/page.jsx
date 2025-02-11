@@ -1,11 +1,36 @@
 import Testimonials from "../components/testimonials";
 import Navbar from "../components/navbar";
-import React from "react";
+import React, { useRef, useState } from "react";
 import BookNow from "../components/book-now";
 import Footer from "../components/footer";
 import { motion } from "framer-motion";
+import { Pause, Play } from "lucide-react";
 
 const AboutPage = () => {
+
+  const ref = useRef(null);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPaused, setIsPaused] = useState(false);
+
+  function handlePlay(){
+    ref.current?.play();
+    setIsPlaying(true);
+    setIsPaused(false);
+  }
+
+
+  function handlePause() {
+    if (ref.current?.paused) {
+      ref.current?.play();
+      setIsPaused(false);
+      setIsPlaying(true);
+    } else {
+      ref.current?.pause();
+      setIsPaused(true);
+      setIsPlaying(false);
+    }
+  }
+
   return (
     <>
       <div className="bg-[#FFE4C4]">
@@ -30,7 +55,7 @@ const AboutPage = () => {
                 class="h-full w-full object-cover rounded-[.5rem]"
               />
 
-              <div class="lg:block hidden absolute right-[-5rem]top-[10rem] lg:h-[20rem] w-[18rem]">
+              <div class="lg:block hidden absolute right-[-5rem] top-[10rem] lg:h-[20rem] w-[18rem]">
                 <img
                   src="/home1.jpg"
                   alt="Second Image"
@@ -66,7 +91,7 @@ const AboutPage = () => {
                 with Passion​
               </h2>
               <p className="mt-[1.5rem] text-[#98623C]">
-                MDPro Makeover & Beauty Spa is your trusted beauty destination,
+                Bellavida Spa is your trusted beauty destination,
                 dedicated to offering a wide range of services that cater to all
                 aspects of beauty and wellness. Our team of certified beauty
                 experts and therapists are passionate about bringing out the
@@ -92,9 +117,7 @@ const AboutPage = () => {
                     Our Vision
                   </h3>
                   <p className="text-[#98623C]">
-                    To be the leading beauty and wellness destination, where
-                    every individual feels empowered, beautiful, and rejuvenated
-                    through exceptional care.
+                  At Bellavida Spa, our vision is to be a sanctuary of beauty and wellness, where every individual who walks through our doors feels truly valued, relaxed, and rejuvenated.
                   </p>
                 </div>
               </div>
@@ -108,9 +131,7 @@ const AboutPage = () => {
                     Our Mission
                   </h3>
                   <p className="text-[#98623C]">
-                    To be the leading beauty and wellness destination, where
-                    every individual feels empowered, beautiful, and rejuvenated
-                    through exceptional care.
+                  We provide a transformative experience that revitalizes both the body and mind. We are dedicated to offering the highest quality beauty and wellness services, designed to enhance your natural beauty.
                   </p>
                 </div>
               </div>
@@ -118,14 +139,18 @@ const AboutPage = () => {
 
             {/* <div  className="lg:h-[30rem] h-[25rem]"> */}
             {/* <img src="/home1.jpg" alt="" className="h-full w-full object-cover rounded-[.5rem]"/> */}
-            <video
+            <div className="relative">
+              <video
               src="/bella.mp4"
               // controls
-              autoPlay
+              ref={ref}
               loop
-              preload="true"
               className="lg:h-[30rem] h-[25rem] w-full object-cover rounded-[.5rem]"
             ></video>
+            <div className="play-btn absolute top-[40%] left-[45%] bg-white cursor-pointer p-[2rem] rounded-full">
+                 {!isPlaying ? <Play size={30} fill="#98623C" className="border-none" onClick={handlePlay}/> : <Pause size={30} fill="#98623C" className="border-none" onClick={handlePause}/>}
+            </div>
+            </div>
             {/* </div> */}
           </div>
         </div>

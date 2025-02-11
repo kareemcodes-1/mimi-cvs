@@ -13,7 +13,7 @@ const Testimonials = () => {
           <span className="greatvibes text-[1.7rem] text-[#d5a654]">Reviews</span>
         <h2 className="lg:text-[4rem] text-[2.5rem] golo z-[10000]">Hear from our satisified clients</h2>
         </div>
-        <p className="text-[#98623C] golo z-[10000]">From glowing bridal makeovers to relaxing spa treatments, see how we've helped people look and feel their best.</p>
+        <p className="text-[#98623C] golo z-[10000]">From glowing facial massages to relaxing spa treatments, see how we've helped people look and feel their best.</p>
         </div>
 
            <SwiperSlider />

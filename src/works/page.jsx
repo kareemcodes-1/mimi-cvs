@@ -37,7 +37,7 @@ const Works = () => {
               strokeWidth="3"
             />
           </svg> </span> work</h2>
-             <p className="mt-[1rem] text-center lg:w-[700px] w-full mx-auto text-[#98623C]">MDPro Makeover & Beauty Spa is your trusted beauty destination, dedicated to offering a wide range of services that cater to all aspects of beauty and wellness. Our team of certified beauty experts and therapists are passionate about bringing out the best version of you, offering services ranging from professional makeovers to holistic spa treatments.</p>
+             <p className="mt-[1rem] text-center lg:w-[700px] w-full mx-auto text-[#98623C]">At Bellavida Spa, our team is the heart of our service. Each member is carefully selected for their expertise, professionalism, and passion for beauty and wellness. Our certified beauty therapists, estheticians, massage specialists, and wellness practitioners are committed to helping you achieve your beauty and health goals with personalized care and attention.</p>
              </div>
 
              <div className='lg:grid flex flex-col grid-cols-3 gap-[1rem] mt-[2rem]'>
