@@ -25,7 +25,7 @@ const SwiperSlider = () => {
         className="mySwiper mt-[1rem] !hidden lg:block swiper-reviews-lg  z-[10000]"
       >
                   <SwiperSlide>
-                      <div className="bg-[#d5a65472]  p-[1.5rem] flex flex-col gap-[1rem] h-[20rem]  z-[10000]">
+                      <div className="bg-[#d5a65472]  p-[1.5rem] flex flex-col gap-[1rem] h-[20rem]  z-[10000] rounded-[.5rem]">
                            <img src="" alt="" />
                            <div className="flex space-x-2">
                            {Array.from({length: 4}).map((_, index) => (
@@ -37,7 +37,7 @@ const SwiperSlider = () => {
                       </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                      <div className="bg-[#d5a65472]  p-[1.5rem] flex flex-col gap-[1rem] h-[20rem]">
+                      <div className="bg-[#d5a65472]  p-[1.5rem] flex flex-col gap-[1rem] h-[20rem] rounded-[.5rem]">
                            <img src="" alt="" />
                            <div className="flex space-x-2">
                            {Array.from({length: 4}).map((_, index) => (
@@ -49,7 +49,7 @@ const SwiperSlider = () => {
                       </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                      <div className="bg-[#d5a65472] p-[1.5rem] flex flex-col gap-[1rem] h-[20rem]">
+                      <div className="bg-[#d5a65472] p-[1.5rem] flex flex-col gap-[1rem] h-[20rem] rounded-[.5rem]">
                            <img src="" alt="" />
                            <div className="flex space-x-2">
                            {Array.from({length: 4}).map((_, index) => (
@@ -61,7 +61,7 @@ const SwiperSlider = () => {
                       </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                      <div className="bg-[#d5a65472]  p-[1.5rem] flex flex-col gap-[1rem] h-[20rem]">
+                      <div className="bg-[#d5a65472]  p-[1.5rem] flex flex-col gap-[1rem] h-[20rem] rounded-[.5rem]">
                            <img src="" alt="" />
                            <div className="flex space-x-2">
                            {Array.from({length: 4}).map((_, index) => (
@@ -86,7 +86,7 @@ const SwiperSlider = () => {
         className="mySwiper swiper-reviews-sm mt-[1.5rem]"
       >
                   <SwiperSlide>
-                      <div className="bg-[#d5a65472]  p-[1.5rem] flex flex-col gap-[1rem] h-[20rem]">
+                      <div className="bg-[#d5a65472]  p-[1.5rem] flex flex-col gap-[1rem] h-[20rem] rounded-[.5rem]">
                            <img src="" alt="" />
                            <div className="flex space-x-2">
                            {Array.from({length: 4}).map((_, index) => (
@@ -98,7 +98,7 @@ const SwiperSlider = () => {
                       </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                      <div className="bg-[#d5a65472]  p-[1.5rem] flex flex-col gap-[1rem] h-[20rem]">
+                      <div className="bg-[#d5a65472]  p-[1.5rem] flex flex-col gap-[1rem] h-[20rem] rounded-[.5rem]">
                            <img src="" alt="" />
                            <div className="flex space-x-2">
                            {Array.from({length: 4}).map((_, index) => (
@@ -110,7 +110,7 @@ const SwiperSlider = () => {
                       </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                      <div className="bg-[#d5a65472] p-[1.5rem] flex flex-col gap-[1rem] h-[20rem]">
+                      <div className="bg-[#d5a65472] p-[1.5rem] flex flex-col gap-[1rem] h-[20rem] rounded-[.5rem]">
                            <img src="" alt="" />
                            <div className="flex space-x-2">
                            {Array.from({length: 4}).map((_, index) => (
@@ -122,7 +122,7 @@ const SwiperSlider = () => {
                       </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                      <div className="bg-[#d5a65472]  p-[1.5rem] flex flex-col gap-[1rem] h-[20rem]">
+                      <div className="bg-[#d5a65472]  p-[1.5rem] flex flex-col gap-[1rem] h-[20rem] rounded-[.5rem]">
                            <img src="" alt="" />
                            <div className="flex space-x-2">
                            {Array.from({length: 4}).map((_, index) => (

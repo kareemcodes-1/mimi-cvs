@@ -27,7 +27,7 @@ const Footer = () => {
             <h2 className="text-[2rem]">Socials</h2>
             <Link to=""  className="text-[1.2rem]">Facebook</Link>
             <Link to="https://www.instagram.com/bellavidaspa_ng/" target="_blank"  className="text-[1.2rem]">Instagram</Link>
-            <Link to="wa.me/2348120572507" target="_blank"  className="text-[1.2rem]">Whatsapp</Link>
+            <Link to="https://wa.me/2348120572507" target="_blank"  className="text-[1.2rem]">Whatsapp</Link>
          </div>
 
          

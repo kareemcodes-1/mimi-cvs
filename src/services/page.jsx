@@ -46,9 +46,6 @@ const ServicesPage = () => {
                           <div className='w-full'>
                           <img src="./home1.jpg" alt="" className='h-[25rem] w-full object-cover rounded-[.5rem]'/>
                           </div>
-                          {/* <div className='w-full'>
-                          <img src="./home1.jpg" alt="" className='h-[25rem] w-full object-cover rounded-[.5rem]'/>
-                          </div> */}
                       </div>
 
                       <div className='bg-[#98623C] rounded-[.5rem] lg:p-[2rem] p-[1.5rem]'>
@@ -60,7 +57,6 @@ const ServicesPage = () => {
 
                   <div className='lg:grid flex flex-col grid-cols-2 gap-[1rem]'>
                       <div className='relative flex items-center gap-[2rem]'>
-                          {/* <img src="./home1.jpg" alt="" className='h-[25rem] w-full object-cover rounded-[.5rem]'/> */}
                           <img src="./home1.jpg" alt="" className='h-[25rem] w-full object-cover rounded-[.5rem]'/>
                       </div>
 
@@ -73,7 +69,6 @@ const ServicesPage = () => {
 
                   <div className='lg:grid flex flex-col grid-cols-2 gap-[1rem]'>
                       <div className='relative flex items-center gap-[2rem]'>
-                          {/* <img src="./home1.jpg" alt="" className='h-[25rem] w-full object-cover rounded-[.5rem]'/> */}
                           <img src="./home1.jpg" alt="" className='h-[25rem] w-full object-cover rounded-[.5rem]'/>
                       </div>
 
@@ -87,7 +82,6 @@ const ServicesPage = () => {
                   <div className='lg:grid flex flex-col grid-cols-2 gap-[1rem]'>
                       <div className='relative flex items-center gap-[2rem]'>
                           <img src="./home1.jpg" alt="" className='h-[25rem] w-full object-cover rounded-[.5rem]'/>
-                          {/* <img src="./home1.jpg" alt="" className='h-[25rem] w-full object-cover rounded-[.5rem]'/> */}
                       </div>
 
                       <div className='bg-[#98623C] rounded-[.5rem] lg:p-[2rem] p-[1.5rem]'>

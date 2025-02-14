@@ -48,7 +48,7 @@ const ContactPage = () => {
     <div className='lg:px-[2rem] px-[1rem]'>
        <div className='lg:grid flex flex-col grid-cols-2 gap-[2rem]'>
           <div  className="lg:h-[30rem] h-[25rem]">
-          <img src="/home1.jpg" alt="" className="h-full w-full object-cover rounded-[.5rem]"/>
+          <img src="https://img.freepik.com/free-photo/closeup-young-woman-enjoying-head-massage-beauty-treatment-spa_637285-2183.jpg?ga=GA1.1.825982305.1739535259" alt="" className="h-full w-full object-cover rounded-[.5rem]"/>
          </div>
 
          <div>

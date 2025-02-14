@@ -13,19 +13,19 @@ export const Services = () => {
         <Link
           heading=" Facial &nbsp; massage"
           // subheading="Learn what we do here"
-          imgSrc="/home1.jpg"
+          imgSrc="https://img.freepik.com/free-photo/young-woman-lying-cosmetologist-s-table-rejuvenation-procedure_343596-63.jpg?ga=GA1.1.825982305.1739535259"
           href="/services"
         />
         <Link
           heading="Pedicure"
           // subheading="We work with great people"
-          imgSrc="/home1.jpg"
+          imgSrc="https://i.pinimg.com/474x/ed/c6/11/edc61171fb8f06bc04ce116652ef2ffa.jpg"
           href="/services"
         />
         <Link
           heading="Hair &nbsp; styling"
           // subheading="Our work speaks for itself"
-          imgSrc="/home1.jpg"
+          imgSrc="https://i.pinimg.com/236x/86/2e/65/862e6590a4a5fbb086afadfa3f9f8550.jpg"
           href="/services"
         />
         {/* <Link
@@ -37,7 +37,7 @@ export const Services = () => {
         <Link
           heading="Body &nbsp; Massage"
           // subheading="Incase you're bored"
-          imgSrc="/home1.jpg"
+          imgSrc="https://i.pinimg.com/236x/f6/28/f6/f628f6131c4debd730bd452b4cfe2690.jpg"
           href="/services"
         />
       </div>

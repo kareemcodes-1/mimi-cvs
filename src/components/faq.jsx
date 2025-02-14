@@ -24,35 +24,35 @@ const FAQ = () => {
               <AccordionTrigger className="golo text-[1.3rem] text-[#d5a654] !no-underline">
                 Experienced Professionals
               </AccordionTrigger>
-              <AccordionContent className="text-[#98623C]">
-                Yes. It adheres to the WAI-ARIA design pattern.
+              <AccordionContent className="text-[#98623C] golo text-[1rem]">
+              Whether you’re here for a facial, massage, manicure, or any other treatment, you can trust our certified professionals to make your experience both relaxing and rejuvenating
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-2" className="border-[#98623c79]">
               <AccordionTrigger className="golo text-[1.3rem] text-[#d5a654] !no-underline">
-                Premium Quality Products
+                Affordable Prices
               </AccordionTrigger>
-              <AccordionContent className="text-[#98623C]">
-                Yes. It adheres to the WAI-ARIA design pattern.
+              <AccordionContent className="text-[#98623C] golo text-[1rem]">
+              We are committed to providing excellent value, so you can indulge in top-notch services that enhance your well-being at a price that fits your budget.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-3" className="border-[#98623c79]">
               <AccordionTrigger className="golo text-[1.3rem] text-[#d5a654] !no-underline">
-                Personalized Approach
+                High Quality Spa Services
               </AccordionTrigger>
-              <AccordionContent className="text-[#98623C]">
-                Yes. It adheres to the WAI-ARIA design pattern.
+              <AccordionContent className="text-[#98623C] golo text-[1rem]">
+              We are dedicated to offering only the highest quality spa services to ensure you receive the best experience possible. From luxurious facials to soothing massages, each treatment is performed with attention to detail, using premium products and advanced techniques
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-4" className="border-[#98623c79]">
               <AccordionTrigger className="golo text-[1.3rem] text-[#d5a654] !no-underline">
-                Convenient Online Booking
+                Unlimited Happy Clients
               </AccordionTrigger>
-              <AccordionContent className="text-[#98623C]">
-                Yes. It adheres to the WAI-ARIA design pattern.
+              <AccordionContent className="text-[#98623C] golo text-[1rem]">
+              We take pride in the countless satisfied clients who trust us to enhance their beauty and well-being. Our spa is built on a foundation of excellent service, personalized care, and outstanding results, which is why our clients keep coming back.
               </AccordionContent>
             </AccordionItem>
           </Accordion>

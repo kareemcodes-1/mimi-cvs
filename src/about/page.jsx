@@ -5,6 +5,7 @@ import BookNow from "../components/book-now";
 import Footer from "../components/footer";
 import { motion } from "framer-motion";
 import { Pause, Play } from "lucide-react";
+import Clients from "../components/clients";
 
 const AboutPage = () => {
 
@@ -50,14 +51,14 @@ const AboutPage = () => {
                 ✦
               </h1>
               <img
-                src="/home1.jpg"
+                src="https://img.freepik.com/free-photo/attractive-african-woman-having-massage-relaxing-spa-salon-closed-eyes_176420-13930.jpg?ga=GA1.1.825982305.1739535259"
                 alt="First Image"
                 class="h-full w-full object-cover rounded-[.5rem]"
               />
 
               <div class="lg:block hidden absolute right-[-5rem] top-[10rem] lg:h-[20rem] w-[18rem]">
                 <img
-                  src="/home1.jpg"
+                  src="https://img.freepik.com/free-photo/beautiful-african-woman-smiling-enjoying-massage-spa-resort_176420-12934.jpg?ga=GA1.1.825982305.1739535259"
                   alt="Second Image"
                   class="h-full w-full object-cover rounded-[.5rem] border-[4px] border-[#d5a654]"
                 />
@@ -109,7 +110,7 @@ const AboutPage = () => {
               </h2>
 
               <div className="flex items-center gap-[1.5rem] mt-[1.5rem]">
-                <div className="bg-white shadow-sm rounded-full text-[#98623C] lg:w-[5.5rem] w-[10rem] h-[3rem] flex items-center justify-center text-[1.2rem] golos font-medium hover:bg-[#4B3619] hover:text-white transition">
+                <div className="bg-white shadow-sm rounded-full text-[#98623C] lg:w-[6.5rem] w-[10rem] h-[3rem] flex items-center justify-center text-[1.2rem] golos font-medium hover:bg-[#4B3619] hover:text-white transition">
                   01
                 </div>
                 <div>
@@ -123,7 +124,7 @@ const AboutPage = () => {
               </div>
 
               <div className="flex items-center gap-[1.5rem] mt-[1.5rem]">
-                <div className="bg-white shadow-sm rounded-full text-[#98623C] lg:w-[5.5rem] w-[10rem] h-[3rem] flex items-center justify-center text-[1.2rem] golos font-medium hover:bg-[#4B3619] hover:text-white transition">
+                <div className="bg-white shadow-sm rounded-full text-[#98623C] lg:w-[8rem] w-[10rem] h-[3rem] flex items-center justify-center text-[1.2rem] golos font-medium hover:bg-[#4B3619] hover:text-white transition">
                   02
                 </div>
                 <div>
@@ -147,7 +148,7 @@ const AboutPage = () => {
               loop
               className="lg:h-[30rem] h-[25rem] w-full object-cover rounded-[.5rem]"
             ></video>
-            <div className="play-btn absolute top-[40%] left-[45%] bg-white cursor-pointer p-[2rem] rounded-full">
+            <div className="play-btn absolute top-[40%] lg:left-[45%] left-[30%] bg-white cursor-pointer p-[2rem] rounded-full">
                  {!isPlaying ? <Play size={30} fill="#98623C" className="border-none" onClick={handlePlay}/> : <Pause size={30} fill="#98623C" className="border-none" onClick={handlePause}/>}
             </div>
             </div>
@@ -155,6 +156,7 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
+      <Clients />
       <Testimonials />
       <BookNow />
       <Footer />
