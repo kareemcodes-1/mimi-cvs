@@ -93,7 +93,7 @@ const Link = ({ heading, imgSrc, subheading, href }) => {
             staggerChildren: 0.075,
             delayChildren: 0.25,
           }}
-          className="relative z-10 block lg:text-[4rem] text-[1.8rem] font-bold text-white opacity-[.5] transition-colors duration-500 group-hover:text-neutral-50 group-hover:opacity-[1] md:text-6xl"
+          className="relative z-10 block lg:text-[4rem] text-[1.5rem] font-bold text-white opacity-[.5] transition-colors duration-500 group-hover:text-neutral-50 group-hover:opacity-[1] md:text-6xl"
         >
           <span className="text-[#d5a654]">✦</span>
           {heading.split("").map((l, i) => (
