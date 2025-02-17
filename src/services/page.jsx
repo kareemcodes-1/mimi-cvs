@@ -62,7 +62,7 @@ const ServicesPage = () => {
 
                       <div className='bg-[#98623C] rounded-[.5rem] lg:p-[2rem] p-[1.5rem]'>
                            <h2 className='text-[#FFE4C4] text-[5rem] leading-[6rem]'>Hair <br /> Styling</h2>
-                           <p className="text-[1.2rem] text-[#FFE4C4] opacity-[.8]">Transform your look with our professional makeup services, perfect for weddings, photoshoots, special occasions, and everyday glam.</p>
+                           <p className="text-[1.2rem] text-[#FFE4C4] opacity-[.8]">Transform your hair with our expert styling services, designed to make you feel your most confident and beautiful</p>
                            <Link to={'https://wa.link/8e1ifh'} rel='external' target='_blank' className="cart-btn-2 mt-[1rem]">Book now</Link>
                       </div>
                   </div>
@@ -74,7 +74,7 @@ const ServicesPage = () => {
 
                       <div className='bg-[#98623C] rounded-[.5rem] lg:p-[2rem] p-[1.5rem]'>
                            <h2 className='text-[#FFE4C4] text-[5rem] leading-[6rem]'>Facial <br /> Massage</h2>
-                           <p className="text-[1.2rem] text-[#FFE4C4] opacity-[.8]">Transform your look with our professional makeup services, perfect for weddings, photoshoots, special occasions, and everyday glam.</p>
+                           <p className="text-[1.2rem] text-[#FFE4C4] opacity-[.8]">Our facials are tailored to your skin type, addressing everything from hydration to deep cleansing, leaving your skin glowing and refreshed.</p>
                            <Link to={'https://wa.link/8e1ifh'} rel='external' target='_blank' className="cart-btn-2 mt-[1rem]">Book now</Link>
                       </div>
                   </div>
@@ -86,7 +86,7 @@ const ServicesPage = () => {
 
                       <div className='bg-[#98623C] rounded-[.5rem] lg:p-[2rem] p-[1.5rem]'>
                            <h2 className='text-[#FFE4C4] text-[5rem] leading-[6rem]'>Pendicure & <br /> Manicure</h2>
-                           <p className="text-[1.2rem] text-[#FFE4C4] opacity-[.8]">Transform your look with our professional makeup services, perfect for weddings, photoshoots, special occasions, and everyday glam.</p>
+                           <p className="text-[1.2rem] text-[#FFE4C4] opacity-[.8]">Pamper your hands and feet with our luxurious Pedicure and Manicure services, designed to leave you feeling refreshed and polished.</p>
                            <Link to={'https://wa.link/8e1ifh'} rel='external' target='_blank' className="cart-btn-2 mt-[1rem]">Book now</Link>
                       </div>
                   </div>

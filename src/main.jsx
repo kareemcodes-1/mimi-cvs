@@ -10,6 +10,8 @@ import ToastProvider from './provider/toast-provider';
 // import AboutPage from './about/page.tsx';
 // import ServicesPage from './services/page.jsx';
 // import ContactPage from './contact/page.jsx';
+
+
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
 

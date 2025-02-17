@@ -32,8 +32,10 @@ const SwiperSlider = () => {
                                <Star fill="#eab308" key={index} className="text-yellow-500" size={20} />
                            ))}
                            </div>
-                           <h2 className="text-[1.5rem] golo text-white">Benedict Cado</h2>
-                           <p className="text-white opacity-[.9]">Such a wonderful experience at Serenitas London! The staff is professional, and they really take the time to understand what you want. Highly recommend!</p>
+                           <h2 className="text-[1.5rem] golo text-white">Ikedieze Precious</h2>
+                           <p className="text-white opacity-[.9]">
+                            Nice and clean environment, very polite therapist .
+                           Definitely doing this again , thank you BVS 😊</p>
                       </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -44,8 +46,9 @@ const SwiperSlider = () => {
                                <Star fill="#eab308" key={index} className="text-yellow-500" size={20} />
                            ))}
                            </div>
-                           <h2 className="text-[1.5rem] golo text-white">Benedict Cado</h2>
-                           <p className="text-white opacity-[.9]">Such a wonderful experience at Serenitas London! The staff is professional, and they really take the time to understand what you want. Highly recommend!</p>
+                           <h2 className="text-[1.5rem] golo text-white">Ademola Esther</h2>
+                           <p className="text-white opacity-[.9]">I really enjoyed the massage session.
+                           Bella vida is a place I will highly recommend anytime.😊</p>
                       </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -56,8 +59,8 @@ const SwiperSlider = () => {
                                <Star fill="#eab308" key={index} className="text-yellow-500" size={20} />
                            ))}
                            </div>
-                           <h2 className="text-[1.5rem] golo text-white">Benedict Cado</h2>
-                           <p className="text-white opacity-[.9]">Such a wonderful experience at Serenitas London! The staff is professional, and they really take the time to understand what you want. Highly recommend!</p>
+                           <h2 className="text-[1.5rem] golo text-white">Dolapo Adeshina</h2>
+                           <p className="text-white opacity-[.9]">The spa is the best I ever seen and have well behaved trained therapist with good manners and always respect their clients 🥰</p>
                       </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -68,8 +71,8 @@ const SwiperSlider = () => {
                                <Star fill="#eab308" key={index} className="text-yellow-500" size={20} />
                            ))}
                            </div>
-                           <h2 className="text-[1.5rem] golo text-white">Benedict Cado</h2>
-                           <p className="text-white opacity-[.9]">Such a wonderful experience at Serenitas London! The staff is professional, and they really take the time to understand what you want. Highly recommend!</p>
+                           <h2 className="text-[1.5rem] golo text-white">Ogechukwu Onoh</h2>
+                           <p className="text-white opacity-[.9]">Well mannered Therapist. Clean environment and very satisfying service. I will continue to patronize their services.</p>
                       </div>
                 </SwiperSlide>
       </Swiper>
@@ -93,8 +96,10 @@ const SwiperSlider = () => {
                                <Star fill="#eab308" key={index} className="text-yellow-500" size={20} />
                            ))}
                            </div>
-                           <h2 className="text-[1.5rem] golo text-white">Benedict Cado</h2>
-                           <p className="text-white opacity-[.9]">Such a wonderful experience at Serenitas London! The staff is professional, and they really take the time to understand what you want. Highly recommend!</p>
+                           <h2 className="text-[1.5rem] golo text-white">Ikedieze Precious</h2>
+                           <p className="text-white opacity-[.9]">
+                            Nice and clean environment, very polite therapist .
+                           Definitely doing this again , thank you BVS 😊</p>
                       </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -105,8 +110,9 @@ const SwiperSlider = () => {
                                <Star fill="#eab308" key={index} className="text-yellow-500" size={20} />
                            ))}
                            </div>
-                           <h2 className="text-[1.5rem] golo text-white">Benedict Cado</h2>
-                           <p className="text-white opacity-[.9]">Such a wonderful experience at Serenitas London! The staff is professional, and they really take the time to understand what you want. Highly recommend!</p>
+                           <h2 className="text-[1.5rem] golo text-white">Ademola Esther</h2>
+                           <p className="text-white opacity-[.9]">I really enjoyed the massage session.
+                           Bella vida is a place I will highly recommend anytime.😊</p>
                       </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -117,8 +123,8 @@ const SwiperSlider = () => {
                                <Star fill="#eab308" key={index} className="text-yellow-500" size={20} />
                            ))}
                            </div>
-                           <h2 className="text-[1.5rem] golo text-white">Benedict Cado</h2>
-                           <p className="text-white opacity-[.9]">Such a wonderful experience at Serenitas London! The staff is professional, and they really take the time to understand what you want. Highly recommend!</p>
+                           <h2 className="text-[1.5rem] golo text-white">Dolapo Adeshina</h2>
+                           <p className="text-white opacity-[.9]">The spa is the best I ever seen and have well behaved trained therapist with good manners and always respect their clients 🥰</p>
                       </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -129,8 +135,8 @@ const SwiperSlider = () => {
                                <Star fill="#eab308" key={index} className="text-yellow-500" size={20} />
                            ))}
                            </div>
-                           <h2 className="text-[1.5rem] golo text-white">Benedict Cado</h2>
-                           <p className="text-white opacity-[.9]">Such a wonderful experience at Serenitas London! The staff is professional, and they really take the time to understand what you want. Highly recommend!</p>
+                           <h2 className="text-[1.5rem] golo text-white">Ogechukwu Onoh</h2>
+                           <p className="text-white opacity-[.9]">Well mannered Therapist. Clean environment and very satisfying service. I will continue to patronize their services.</p>
                       </div>
                 </SwiperSlide>
       </Swiper>
