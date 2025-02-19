@@ -1,16 +1,16 @@
 import { useEffect } from "react"
-import Hero from "./components/hero"
+import Layout from "./layout";
 import Lenis from "lenis";
-import 'lenis/dist/lenis.css'
-import Collections from "./components/collections"
-import Layout from "./layout"
-import Navbar from "./components/navbar";
-import MarqueeCTA from "./components/marquee-cta";
-import {Services} from "./components/services";
+import { Link } from "react-router";
+import { Badge } from "./components/ui/badge";
+import { useState} from 'react';
+import { motion } from 'framer-motion';
+import MarqueeLogos from "./components/marquee-logos";
 import About from "./components/about";
-import FAQ from "./components/faq";
-import Testimonials from "./components/testimonials";
 import BookNow from "./components/book-now";
+import Works from "./components/works";
+import Testimonials from "./components/testimonials";
+
 
 
 function App() {
@@ -25,21 +25,49 @@ function App() {
     });
   }, []);
 
+  const [currentText, setCurrentText] = useState("UNIBEN");
+  const texts = ["UNIBEN", "JAMB", "WAEC", "NYSC"];
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrentText(prevText => {
+        const currentIndex = texts.indexOf(prevText);
+        return texts[(currentIndex + 1) % texts.length];
+      });
+    }, 1500);
+
+    // Cleanup interval on component unmount
+    return () => clearInterval(intervalId);
+  }, []);
+
 
   return (
     
     <Layout>
-        <div className="bg-[#FFE4C4]">
-        <Navbar />
-        <Hero />
-        </div>
-        <MarqueeCTA />
+        <section className="home section mt-[10rem]">
+            <div className="text-center flex items-center justify-center flex-col">
+                <Badge className={'pill'}><span className="text-[#6056ff]">✦</span>Mimi CVS is now live</Badge>
+                 <h1 className="lg:text-[5rem] text-[3rem] lg:w-[1000px] font-semibold">Verify your <motion.span 
+        key={currentText} 
+        className="text-[#6056ff]"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.5 }} 
+      >
+        {currentText}
+      </motion.span>  Certificate in one place</h1>
+                 <p className="text-[#868a97]">Automate and generate instant background reports on prospective and existing employees.</p>
+                 <Link className="btn mt-[1.2rem] !p-[1rem] lg:w-[15%]">
+                     Get Started
+                 </Link>
+            </div>
+        </section>
+        <MarqueeLogos />
         <About />
-        <FAQ />
-        <Services />
+        <Works />
         <Testimonials />
         <BookNow />
-         {/* <Collections /> */}
     </Layout>
   )
 

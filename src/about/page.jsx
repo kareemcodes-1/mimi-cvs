@@ -102,7 +102,7 @@ const AboutPage = () => {
             </div>
           </div>
 
-          <div className="lg:grid flex flex-col grid-cols-2 gap-[2rem] py-[3rem]">
+          <div className="lg:grid flex flex-col grid-cols-2 place-items-center gap-[2rem] py-[3rem]">
             <div>
               <h4 className="text-[1.7rem] text-[#d5a654]">Our Direction</h4>
               <h2 className="golo lg:text-[3.9rem] text-[2.5rem]">
