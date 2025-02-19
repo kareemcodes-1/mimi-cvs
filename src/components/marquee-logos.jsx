@@ -3,7 +3,7 @@ import Marquee from 'react-fast-marquee'
 
 const MarqueeLogos = () => {
   return (
-    <div className='mt-[6rem]'>
+    <div className='mt-[6rem] lg:mx-0 mx-[1rem]'>
        <div className='text-center text-[1rem] text-[#868a97]'>In Partnership with</div>
       <div className='mt-[5rem] grid lg:grid-cols-4 grid-cols-2 mx-auto place-items-center lg:gap-0 gap-[2rem]'>
         <div className='w-[10rem] h-[10rem]'>

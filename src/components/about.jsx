@@ -2,7 +2,7 @@ import { Badge } from "./ui/badge"
 
 const About = () => {
   return (
-     <section className=" mt-[10rem] ">
+     <section className=" mt-[10rem] lg:mx-0 mx-[1rem]">
           <div className="mx-auto flex flex-col items-center justify-center text-center gap-[2rem]">
                <Badge className={'pill'}><span className="text-[#6056ff]">✦</span>About us</Badge>
 

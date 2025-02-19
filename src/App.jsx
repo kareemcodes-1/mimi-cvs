@@ -44,10 +44,10 @@ function App() {
   return (
     
     <Layout>
-        <section className="home section mt-[10rem]">
+        <section className="home section lg:mt-[10rem] mt-[7rem]">
             <div className="text-center flex items-center justify-center flex-col">
                 <Badge className={'pill'}><span className="text-[#6056ff]">✦</span>Mimi CVS is now live</Badge>
-                 <h1 className="lg:text-[5rem] text-[3rem] lg:w-[1000px] font-semibold">Verify your <motion.span 
+                 <h1 className="lg:text-[5rem] text-[3rem] lg:w-[1000px] font-medium">Verify your <motion.span 
         key={currentText} 
         className="text-[#6056ff]"
         initial={{ opacity: 0 }}
